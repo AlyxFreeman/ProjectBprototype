@@ -119,7 +119,7 @@ function preload() {
 
   //AUDIO//
   //sun
-  sunFlash = loadSound("assets/sunFlash.mp3")
+  sunFlash = loadSound("assets/SunFlash.mp3")
   sunExpand = loadSound("assets/SunExpand.mp3")
   //background
   cosmicBg = loadSound("assets/CosmicBg.mp3")
