@@ -1141,7 +1141,7 @@ function drawEarthExplosion() {
     
     p.x += p.vx;
     p.y += p.vy;
-    p.vy += 0.2; //fall down
+    //p.vy += 0.2; //fall down
     p.life -= 3;
     
     if (p.life <= 0) {
