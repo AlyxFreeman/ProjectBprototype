@@ -6,7 +6,7 @@ let showMap = false;
 
 let audioStarted = false
 
-let sunFlash;
+let SunFlash;
 let cosmicBg;
 let sunExpand;
 let alienLaser;
@@ -119,7 +119,7 @@ function preload() {
 
   //AUDIO//
   //sun
-  sunFlash = loadSound("assets/SunFlash.mp3")
+  SunFlash = loadSound("assets\SunFlash.mp3")
   sunExpand = loadSound("assets/SunExpand.mp3")
   //background
   cosmicBg = loadSound("assets/CosmicBg.mp3")
@@ -971,8 +971,8 @@ function mousePressed() {
       sunClicks++;
       sunFlashIntensity = 255;
 
-       if (sunFlash && !sunFlash.isPlaying()) {
-    sunFlash.play();
+       if (SunFlash && !SunFlash.isPlaying()) {
+    SunFlash.play();
   }
       
       if (sunClicks >= 3 && !sunExpanding) {
