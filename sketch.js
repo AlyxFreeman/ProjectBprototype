@@ -974,7 +974,7 @@ function mousePressed() {
 
        //if (SunFlash && !SunFlash.isPlaying()) {
     //SunFlash.play();
-  }
+  //}
       
       if (sunClicks >= 3 && !sunExpanding) {
         sunExpanding = true;
@@ -1032,7 +1032,7 @@ function mousePressed() {
       showMap = true;
     }
   }
-
+}
 //Dectect Click on AlienShip
 function isClickOnAlienShip(mx, my) {
   if (centauriClicks < 2 || animT < 1) return false;
